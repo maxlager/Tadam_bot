@@ -6,7 +6,6 @@
     E-mail: tadambot@gmail.com
     @Version: 1.0
     @Release date: June 20/2016
-    www.tadambot.xyz
 '''
 
 import os
@@ -281,7 +280,7 @@ def handler_voice(message):
                 else:
                     output_2 = "%s%s" % (config.yt_link, mlist[5])
 
-             if mlist[6] and mlist[7]:
+            if mlist[6] and mlist[7]:
                 spotify     = config.spotify_link + str(mlist[6])
                 button_spot = telebot.types.InlineKeyboardButton('Buy on Spotify',
                                                                 spotify)
